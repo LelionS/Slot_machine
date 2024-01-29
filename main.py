@@ -25,7 +25,7 @@ def play_slot_game():
             print(f"Congratulations! You won {payout} coins.")
         else:
             print("Sorry, no win this time.")
-
+# loop again
         play_again = input("Do you want to play again? (y/n): ")
         if play_again.lower() != 'y':
             print("Thanks for playing. Goodbye!")
