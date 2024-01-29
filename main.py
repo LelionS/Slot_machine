@@ -14,7 +14,7 @@ def calculate_payout(symbols):
 
 def play_slot_game():
     print("Welcome to the Python Slot Machine!")
-
+#start of the game
     while True:
         input("Press Enter to spin the slot machine...")
         symbols = spin_slot_machine()
