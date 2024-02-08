@@ -2,7 +2,7 @@ import random
 
 def spin_slot_machine():
     return [random.choice(['Cherry', 'Bar', 'Seven']) for _ in range(3)]
-
+# what are the outcome
 def calculate_payout(symbols):
     switcher = {
         ('Cherry', 'Cherry', 'Cherry'): 50,
